@@ -1,0 +1,53 @@
+.body{
+  font-size:16pt;
+  color:#999;
+  padding-left:50px;
+  width:800px;
+  height:1000px;
+
+}
+
+/* 参照 https://saruwakakun.com/html-css/reference/buttons */
+.square_btn{
+    position: relative;
+    display: inline-block;
+    font-weight: bold;/* 太文字 */
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #00BCD4;
+    background: #ECECEC;
+    transition: .4s;
+  }
+
+.square_btn:hover {
+    background: #00bcd4;
+    color: white;
+}
+
+a{
+  text-decoration:none;
+}
+
+
+.button_sub {
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left:260px;
+    width:100px;
+    float: left;
+}
+
+
+.box1, .box2, .box3 {
+  /* float:left; */
+  width:600px;
+  height:700px;
+  padding-left:12px;
+  /* background: #ECECEC;
+  border: 1px solid #CC0000; */
+}
+
+.article-body-inner {
+    border-bottom:1px solid #7f7f7f;
+}
